@@ -1,0 +1,202 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				color: #666666;
+				background-color: #FFE4B5;
+				background-image: url("bg.jpg");
+				background-repeat: no-repeat;
+				background-position: left top;
+				margin-right: 0px;
+				background-attachment: fixed;
+				background-size: cover;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+			.wrapper {
+				width: 940px;
+				hieght: 3600px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}
+			header {
+				height: 360px;
+				width: 940px;
+				background-image: url("img.gif");
+				background-position: center;}
+			h1 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			nav, footer {
+				clear: both;
+				color: #000000;
+				background-color: #b4c3c6;
+				text-decoration: none;
+				margin: 2px 2px 0px 2px;
+				height: 40px;
+				font-weight: bold;
+				outline: 0;}
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;}
+			nav li {
+				float: left;}
+			nav li a {
+				display: block;
+				color: #092274;
+				text-align: center;
+				padding: 10px 35px 10px 35px;
+				text-decoration: none;}
+			nav li a:hover:not(.active) {
+				height: 40px;
+				background-color: #ffffff;}
+			.active {
+				background-color: #e3ebb2;}
+			section.courses {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+			article {
+				clear: both;
+				overflow: auto;
+				margin: 2px 0px 2px 2px;
+				padding: 5px;
+				border: 1px solid gray;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: left;
+				width: 242px;
+				height: 266px;
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #eeeeee;
+				background-color: #fde147;}
+			figcaption {
+				font-size: 90%;
+				color: #2bcc06;
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+				margin: 2px 0px 2px 2px;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #000000;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			p {
+				color: #000000;}
+				
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				color: #de6581;
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #8a9e93;}
+			h2 a:hover {
+				color: #092274;
+				background-color: white;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #000000;}
+			footer {
+				font-size: 100%;
+				color: #b7dbdb;
+				background-color: #876947;
+				padding: 10px 5px 5px 20px;
+				font-family: "Segoe Script";
+				font-shadow: 0 0 8px 3px #fff;}
+				
+			.container{
+				height: 340px;
+				width: 620px;
+				position: absolute;
+				background-color: #cee7e3;
+				padding: 20px;
+				border: 1px solid #08038C;
+				box-shadow: 0 0 8px 3px #fff;
+			}
+
+			.title{
+				
+				text-align: center;
+				font-size: 32px;
+				text-transform: uppercase;
+				color: #000000;
+			}
+
+			.question{
+				padding: 20px;
+				font-size: 22px;
+				background: #010c64;
+				border-radius: 20px;
+				margin: 10px 0 10px 0;
+				color: #ffffff;
+			}
+
+			.option{
+				width: 200px;
+				display: inline-block;
+				padding: 10px 0 10px 15px;
+				vertical-align: middle;
+				background: #f7c4af;
+				margin: 10px 0 10px 10px;
+				color: #000000;
+				border-radius: 20px;
+				border: 1px solid #c98467;
+			}
+
+			.option:hover{
+				background: #c2f47a;
+				color: #010c64;
+				border: 1px solid #89e207;
+			}
+
+			.next-btn{
+				border: none;
+				outline: none;
+				background-color: #c2f47a;
+				width: 100px;
+				height: 35px;
+				border-radius: 20px;
+				cursor: pointer;
+				float: right;
+				margin: 10px;
+				font-family: "Comic Sans MS";
+				border: 1px solid #89e207;
+			}
+
+			.next-btn:hover{
+				background: #7b6349;
+				color: #f6f6f6;
+				border: 1px solid #775912;
+			}
+
+			.result{
+				height: 80px;
+				text-align: center;
+				font-size: 30px;
+				color: #000000;
+			}
+
+			.option input:checked .option{
+				background: #08038C;
+				color: #000;
+			}
+			
+			
+		</style>

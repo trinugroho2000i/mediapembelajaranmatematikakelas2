@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<link rel="stylesheet" href="style.css">
+			
+	</head>
+	
+	<body>
+		<div class="wrapper">
+			<header>
+				
+				
+			</header>
+			<nav>
+					<ul>
+						<li><a href="index.html">Beranda</a></li>
+						<li><a href="latihan.html">Latihan Soal</a></li>
+						<li><a href="quiz.html">Kuis</a></li>
+						<li><a href="kontak.html">Kontak</a></li>
+					</ul>
+			</nav>
+			<section class="courses">
+				<article>
+					
+		<div id="quizContainer" class="container">
+			<div class="title">Kuis Matematika Kelas 2</div>
+			<div id="question" class="question"></div>
+			<label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+			<label class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
+			<label class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
+			<label class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
+			<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next</button>
+			
+		</div>
+		 
+		<div id="result" class="container result" style="display:none;">
+		</div>
+		
+		<script src="question.js"></script>
+		<script src="quiz-script.js"></script>
+		
+		</article> 	  
+			</section>
+			<aside>
+				<section class="popular-recipes">
+					<h2>Materi</h2>
+					<a href="materi1.html">Pengerjaan Hitung Bilangan</a></li>
+					<a href="materi2.html">Mengalikan Tiga Bilangan Satu Angka</a></li>
+				</section>
+				<section class="contact-details">
+					<h2>Kontak</h2>
+					<a href="https://web.facebook.com/tri.adi.92">FB : Triadi Nugroho</a>
+					<a href="https://www.instagram.com/tri___nugroho/">Instagram : @tri___nugroho</a>
+					<a href="https://wa.me/0895404381611">Whatsapp : Tri Nugroho</a>
+						
+				</section>
+			</aside>
+			<footer>
+				<center>&copy; 2024 - Triadi Nugroho 
+			</footer>
+		</div><!-- .wrapper -->
+	</body>
+</html>
